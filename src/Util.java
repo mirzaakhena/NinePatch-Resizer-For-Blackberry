@@ -43,7 +43,19 @@ public class Util {
 		return processingScalling(bmpSrc, nAspectRatio, nFilterType, nWidth, nHeight);
 	}
 
+	/**
+	 * 
+	 * 
+	 * @author    Patchou
+	 * @version   1.01
+	 * 
+	 * http://www.patchou.com/projects/resizing-bitmaps-jde/
+	 * 
+	 * /
 	private static Bitmap processingScalling(Bitmap bmpSrc, int nAspectRatio, int nFilterType, int nWidth, int nHeight) {
+		
+		
+		
 		// Get the original dimensions of the bitmap
 		int nOriginWidth = bmpSrc.getWidth();
 		int nOriginHeight = bmpSrc.getHeight();
